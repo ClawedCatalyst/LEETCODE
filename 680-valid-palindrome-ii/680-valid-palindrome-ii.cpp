@@ -1,7 +1,14 @@
+const static auto fast=[]{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    return 0;
+}();
+
+
 class Solution {
 public:
-    
-    bool ispal(string s, int i , int j){
+   bool ispal(string s, int i , int j){
         int n1 = s.size();
         while(i<j){
             if(s[i]==s[j]){
